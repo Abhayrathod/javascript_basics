@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="showdata">This is abhay</p>
+</body>
+</html>
+<!-- <script>
+const oldarr=['abhay','singh','rathod'];
+console.log(oldarr[1]);
+
+
+const newarr = oldarr.map(function (cvalue,i,arr)  {
+    // return i + ":" + cvalue + 'sr';
+    console.log(arr)
+} );
+// console.log(newarr);
+</script> -->
+
+<script>
+    const studentdata = [
+        {id : 1, name : "abhay", degree : "be"},
+        {id : 11, name : "abhay1", degree : "be1"},
+    ];
+    // console.log(studentdata);
+
+    const newdata = studentdata.map( (dn) => {
+        return `My name is ${dn.name}. My highest degree is ${dn.degree}` ;
+    } );
+    console.log(newdata);
+    document.getElementById('showdata').innerHTML = newdata;
+
+</script>
