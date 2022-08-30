@@ -1,4 +1,4 @@
-console.log('We are in tut7.js and lets discuss about arrays');
+console.log('We are in tut8.js and lets discuss about arrays');
 let marks = [34, 23, 24, 93 ,73, 25];
 const fruits = ['Orange', 'Apple', 'Pineapple'];
 const mixed = ['str', 89, [3, 5]];
