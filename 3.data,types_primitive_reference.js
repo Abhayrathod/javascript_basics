@@ -1,31 +1,31 @@
 // Primitive data types
 
 // String
-let name = "harry";
-console.log("My string is " + name);
-console.log("Data type is " + (typeof name));
+let name1 = "harry";
+console.log("My string is " + name1);
+console.log("Data type is " + (typeof name1));
 
 // Numbers
 let marks = 34.4;
-console.log("Data type is " + (typeof marks));
+console.log("Data type of marks is " + (typeof marks));
 
 // Boolean
 let isDriver = true;
-console.log("Data type is " + (typeof isDriver));
+console.log("Data type of driver is " + (typeof isDriver));
 
 // Null
 let nullVar = null;
-console.log("Data type is " + (typeof nullVar));
+console.log("Data type on nullVar is " + (typeof nullVar));
 
 // Undefined
 let undef = undefined;
-console.log("Data type is " + (typeof undef));
+console.log("Data type of undef is " + (typeof undef));
 
 // Reference Data Types
 
 // Arrays
 let myarr = [1, 2, 3, 4, false, "string"];
-console.log("Data type is " + (typeof myarr));
+console.log("Data type is of myarr is " + (typeof myarr));
 
 // Object Literals
 let stMarks = {
@@ -38,10 +38,10 @@ console.log( typeof stMarks);
 function findName() {
     
 }
-console.log( typeof findName);
+console.log("findname data type is " + typeof findName);
 
 let date = new Date();
-console.log( typeof date);
+console.log("date type " + typeof date);
 
 // #-------------------------------------------------------2022
 
@@ -76,3 +76,5 @@ const newwe = {
     "personality": "none",
 }
 console.log(newwe["personality"])
+console.log(newwe["age"])
+console.log(newwe["name"])

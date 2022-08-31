@@ -1,36 +1,38 @@
 console.log('This is tutorial 8');
-const age = 128;
+// const age = 128;
+const age = window.prompt("Enter your age: "); 
+alert("Your age is " + age);
 const doesDrive = false;
 // const vari = 34;
 
-// if (age!=19){
-//     console.log('Age is not 19')
-// }
+if (age!=19){
+    console.log('Age is not 19')
+}
 
-// if(age !== 65){
-//     console.log('Age is not 65')
-// }
+if(age !== 65){
+    console.log('Age is not 65')
+}
 
-// else{
-//     console.log('Age is not 19')
-// }
+else{
+    console.log('Age is not 19')
+}
 
-// if (typeof vari !== 'undefined'){
-//     console.log('Vari is defined');
-// }
+if (typeof vari !== 'undefined'){
+    console.log('Vari is defined');
+}
 
-// else{
-//     console.log('Vari is not defined');
-// }
+else{
+    console.log('Vari is not defined');
+}
 
-// if (doesDrive || age>18){
-//     console.log("You can drive");
-// }
-// else{
-//     console.log("You cannot drive");
-// }
+if (doesDrive || age>18){
+    console.log("You can drive");
+}
+else{
+    console.log("You cannot drive");
+}
 
-// console.log(age==45? 'Age is 45': 'Age is not 45');
+console.log(age==45? 'Age is 45': 'Age is not 45');
 
 switch (age) {
     case 18:
@@ -48,7 +50,7 @@ switch (age) {
     default:
         console.log("You are unknown age");
         break;
-}         
+}
 
 
 
