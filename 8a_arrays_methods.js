@@ -10,7 +10,6 @@ console.log(c, typeof c)
 // console.log(num, r)
 // let r = num.shift()
 // console.log(r, num) // Removes an element from the start of the array
-
 // let r = num.unshift(78)
 // console.log(r, num)
-// console.log(r)       
+// console.log(r)
