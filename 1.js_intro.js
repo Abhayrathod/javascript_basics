@@ -32,3 +32,7 @@ if (write) {
 else {
   document.write("Please allow me to write")
 }
+
+
+// Notes - use modals if needed because using alert prompt gives old look to the website 
+// alert prompt can be used in admin panels because users dont have to interact with admin panels , so it can be useful there
