@@ -6,14 +6,14 @@ marks = 9;
 console.log(name, channel, marks);
 
 //RULES FOR CREATING JAVASCRIPT
-/* 1. cannot start with numbers 
+/* 1. cannot start with numbers
  2. can start with letters, or_ $
  3. case sensitive */
 
  var _city ='delhiiiiii';
  console.log(_city);
 
- //AFTER MODERN JAVASCRIPT DEVLOPERS , USE OF VAR IS REDUCED AND CONST AND LET IS FREQUENTLY USED
+//AFTER MODERN JAVASCRIPT DEVLOPERS , USE OF VAR IS REDUCED AND CONST AND LET IS FREQUENTLY USED
 
 const ownersName = 'hariram';
 // ownersName = 'abhay';
@@ -51,7 +51,7 @@ console.log(arr);
 // 3 const -- used mostly
 
 let a = "abhay"
-// let a = 54     // cannot redeclare same variable in js ,gives error 
+// let a = 54     // cannot redeclare same variable in js ,gives error
 a = 54          // this is possible because this time we are not redeclaring variable
 
 const abc = 34       // this variable cannot be changed because 'const' cannot let you change the value of variable
@@ -60,10 +60,10 @@ console.log(abc)
 // Note - const and let are block level keywords while var is global
 
 // const falana;   // throws error because value is not intialized, you have to give value
-// let falana;         // however this will not throw error 
+// let falana;         // however this will not throw error
 // var newss;          // this also will not throw any error
 
-// Note - try to use the 'const' as much as possible and if need arises use let 
+// Note - try to use the 'const' as much as possible and if need arises use let
 
 const falana = 45
 console.log(falana)
