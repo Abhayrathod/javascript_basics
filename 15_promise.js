@@ -42,3 +42,6 @@ enrollStudent(newStudent).then(getStudents).catch(function () {
 
 // function inside then is ran as - resolve()
 // function inside catch is ran as - reject()
+
+
+// -------------------------------------2022
